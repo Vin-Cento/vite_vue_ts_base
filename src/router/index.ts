@@ -1,17 +1,17 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HelloWorld from "@/views/HelloWorldView.vue";
-import Map from "@/views/MapView.vue";
+import First from "@/views/FirstView.vue";
+import Second from "@/views/SecondView.vue";
 
 export default createRouter({
   history: createWebHistory(),
   routes: [
     {
       path: "/",
-      component: HelloWorld,
+      component: First,
     },
     {
-      path: "/map",
-      component: Map,
+      path: "/Second",
+      component: Second,
     },
   ],
 });

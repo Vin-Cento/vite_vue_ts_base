@@ -21,6 +21,7 @@ import HelloWorld from "@/components/HelloWorld.vue";
   will-change: filter;
   transition: filter 300ms;
 }
+
 .v_logo {
   text-align: center;
 }
